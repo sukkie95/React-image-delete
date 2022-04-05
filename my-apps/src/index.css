@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: #102546;
+}
+
+.App{
+  width: 50%;
+  background-color: rgb(102, 111, 160);
+  margin: 0 auto;
+  color: white;
+}
+
+ul li img{
+  width: 300px;
+
+}
+
+ul{
+  list-style: none;
+}
+ul li button{
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  animation-name: button;
+  animation-duration: 4s;
+}
+
+@keyframes button{
+  0%   {background-color: red; color: white}
+  25%  {background-color: yellow;color: white}
+  50%  {background-color: blue;color: white}
+  100% {background-color: green;color: white}
+}
+ul li button:hover{
+  background-color: orangered;
+  color: white;
+  
+
+}
